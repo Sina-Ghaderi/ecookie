@@ -14,7 +14,6 @@ import (
 var (
 	ErrAUTHCOK = errors.New("ecookie: cookie is corrupted")
 	ErrENDDATA = errors.New("ecookie: cookie length is too short")
-	ErrNotVlid = errors.New("ecookie: data is not validated")
 
 	ErrBadKlen = errors.New("ecookie: key must be 16 byte len")
 )
