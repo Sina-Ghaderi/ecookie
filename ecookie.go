@@ -7,8 +7,8 @@ import (
 	"errors"
 	"io"
 
+	"github.com/sina-ghaderi/rabbitio"
 	"golang.org/x/crypto/blake2b"
-	"snix.ir/rabbitio"
 )
 
 var (
