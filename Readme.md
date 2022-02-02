@@ -7,7 +7,7 @@ why ecookies are special?
 - client cannot change or modify content of the cookie.
 
 ### usage and example
-checkout [example](example/) folder... simple http server that uses ecookie package 
+checkout [example](_example/) folder... simple http server that uses ecookie package 
 this package lives on [snix public git servers](https://git.snix.ir/), this one is just a mirror..  
 use `go get snix.ir/ecookie` or `go get github.com/sina-ghaderi/ecookie` to use this packge.
 
