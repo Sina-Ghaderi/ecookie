@@ -10,7 +10,7 @@ why ecookies are special?
 checkout [example](_example/) folder... simple http server that uses ecookie package   
 
 this package lives on [snix public git servers](https://git.snix.ir/), this one is just a mirror..  
-use `go get snix.ir/ecookie` or `go get github.com/sina-ghaderi/ecookie` to use this packge.
+execute `go get snix.ir/ecookie` or `go get github.com/sina-ghaderi/ecookie` to use this packge.
 
 
 ### ecookie process flow
