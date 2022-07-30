@@ -3,6 +3,7 @@ package ecookie
 import (
 	"bytes"
 	"crypto/rand"
+	"crypto/subtle"
 	"encoding/hex"
 	"errors"
 	"io"
@@ -114,7 +115,8 @@ func (h *Decryptor) Decrypt(raw []byte) ([]byte, error) {
 		return nil, err
 	}
 
-	if !bytes.Equal(cl, u[:lenhashfnc]) {
+	eq := subtle.ConstantTimeCompare(cl, u[:lenhashfnc])
+	if eq != 1 {
 		return nil, ErrAUTHCOK
 	}
 
